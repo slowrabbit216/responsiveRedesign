@@ -1,0 +1,28 @@
+.column-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+.row-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70%;
+  align-items: center;
+}
+.original {
+  width: 70%;
+}
+
+.problems {
+  width: 200px;
+  height: 400px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  background-color: lightgreen;
+}

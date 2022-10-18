@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Responsive Redesign</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+  <div class="responsive_redesign">
+    <body>
+      <h1>Responsive Redesign</h1>
+      <h2>Overview</h2>
+        <p>In this section I am practicing the workflow of redesigning a simple website. 
+        I am going to analyze and identify flaws in an existing interface, create 
+        low-fidelity and high-fidelity prototypes for various screen size, and build 
+        a responsive website based on those prototypes</p>
+      <h2>Part 1: Identifying Usability Problems</h2>
+        <p>I have chosen to redesign the website <a href="https://www.when2meet.com/?17301932-GUDfh">when2meet</a> 
+          which is a tool that helps individuals participating in the same event to find a time that works for all 
+          parties. Below is an image of what the current website looks like and what some of its 
+          functionalities are.</p>
+        <div class="column-img-container">
+          <img class="original" src="assets/original_website1.png" alt="Original Website State 1">
+          <br>
+          <img class="original" src="assets/original_website2.png" alt="Original Website State 2">
+        </div>
+        <p>I have chosen this website because it is something I have used frequently in the past and 
+        didn’t have the best user experience with. </p>
+        <p>
+        I have analyzed the website to identify current problems based on three aspects which are usabilit,
+        learnability, and memorability. Usability is how well the website has been designed so that users 
+        can easily operate the functions and tools that the website provides. Learnability is the ability of
+        first-time users to learn the website and the entire process of using the tools from start to finish. 
+        Memorability is the ability of users to remeber the entire process of using the website. 
+        </p>
+        <p> Usability</p>
+          <p>The website lacks affordances that make using the tool intuitive to first-time users. Instructions 
+        are dispersed on the website and not provided in an organized way. The main calendar elements on the 
+        website are not responsive to changes in the size of the screen. This makes the calendars difficult 
+        to use when the screen becomes more narrow. The sign-in input boxes are not responsive for mobile 
+        users and they are extremely hard to select and type text into. Mobile users can’t view both their 
+        personal availability and group availability calendars without having to zoom out because the orientation 
+        of the calendars is the exact same as desktop view. Once the mobile user zooms out on the calendars 
+        it becomes almost impossible to select slots and operate because the calendars get smaller. </p>
+        <div class="column-img-container">
+          <img class="problems" src="assets/usabilityProblem1.png" alt="Original Website State 1">
+          <br>
+          <img class="problems" src="assets/usabilityProblem2.jpeg" alt="Original Website State 2">
+        </div>
+        <p>Learnability</p>
+          <p>The user is exposed to all of the tools on the interface at once which results in an information overload. 
+        As a result, users are hindered from learning how to operate the interface correctly. The instructions are 
+        also presented in an informal manner that makes it easy to miss and ignore.</p>
+        <p>Memorability</p>
+          <p>The process of using the interface is simple and there are not a lot of steps in the entire process.
+        However the poor learnability makes it harder to comprehend the entire process so an improvement in 
+        learnability could also lead to a higher meorability of users.</p>
+        <p>Accessibility</p>
+          <p>Apart from the three usability guidelines we are also concerned about the accessibility of the website for 
+        those that require addittional features to use the website's functionality. The WebAIM Wave assessment showed 
+        that there were two input boxes that didn’t have labels or corresponding descriptions of their purpose. This 
+        stood out to me the most because these two inputs were extremely important to the functionality of the website.
+         To accommodate screen reader users there must be a description that details the use of these two inputs. Another 
+         error was related to the usability of the calendar to both mouse and keyboard users. It doesn’t seem like it is 
+         too user-friendly for keyboard users. </p>
+
+      <h2>Part 2: Visual Redesign</h2>
+        <p>To aid my redesing of the website I have created a couple of visual redesigns to help me address the problems
+          that I have identified above. </p>
+        <p>Low-fidelity Wireframing</p>
+          <p>A low-fidelity wireframe is a rough sketch for the layout of my redeisng. I have decided to create 3 wireframes
+            each representing one of the three common screen sizes (desktop, mobile, tablet). In the wireframes I have also
+            added my own annotations to address the problems I am trying to fix with each new element.
+          </p>
+          <p>For each screen size I have created two wireframes to represent the two states that I am proposing. The initial
+            state is a pop-up window that helps the user sign in and the second state is the main webpage with the calendars
+            that users can choose their time slots.</p>
+          <p>Low-fidelity wireframe for desktop</p>
+            <div class="column-img-container">
+              <img class="original"src="assets/desktopWireframe1.png" alt="">
+              <br>
+              <img class="original"src="assets/desktopWireframe2.png" alt="">
+            </div>
+
+          <p>Low-fidelity wireframe for mobile</p>
+          <div class="column-img-container">
+            <img class="original"src="assets/mobileWireframe.png" alt="">
+          </div>
+
+          <p>Low-fidelity wireframe for tablet</p>
+          <div class="column-img-container">
+            <img class="original"src="assets/tabletWireframe1.png" alt="">
+            <br>
+            <img class="original"src="assets/tabletWireframe2.png" alt="">
+          </div>
+
+        <p>Visual Design Style Guide</p>
+          <p>A visual design style guide displays the main colors, typography, and reusable components' different
+              states (buttons on hover, click, etc.).</p>
+            <div class="column-img-container">
+              <img class="original"src="assets/visualDesignGuide.png" alt="">
+            </div>
+
+        <p>High-Fidelity Prototyping</p>
+          <p>High-fidelity prototypes are based on my low-fidelity wireframes I created but is more detailed. I will create
+            three different prototypes that is responsive between different screen sizes. In my high-fidelity prototypes
+            I have included annotationsof the different elements so that a developer would be able to reproduce them.</p>
+            <p>High-fidelity prototype for desktop</p>
+            <div class="column-img-container">
+              <img class="original"src="assets/prototypeDesktop1.png" alt="">
+              <br>
+              <img class="original"src="assets/prototypeDesktop2.png" alt="">
+            </div>
+            <p>High-fidelity prototype for mobile</p>
+            <div class="column-img-container">
+              <img class="original"src="assets/prototypeMobile.png" alt="">
+            </div>
+            <p>High-fidelity prototype for tablet</p>
+            <div class="column-img-container">
+              <img class="original"src="assets/prototypeTablet.png" alt="">
+            </div>
+
+      <h2>Part 3: Responsive Redesign</h2>
+        <p>For my redesign I have decided to focus on the responsiveness of the elements on the page to improve usability and
+          adding an extra pop-up window to have instructions formatted in a more centralized way and to declutter the content
+          on the main page. When the site is first loaded the pop-up automatically appears and prompts the reader to sign in,
+          instructions are also written to help the reader. After the reader has signed in they can interact with the calendar
+          (which are images in this case so it is not actually interactive) and pick their desired time slots. The design of the 
+          new website also supports different screen views and should also be easily usable from those views.</p>
+          <a href="https://slowrabbit216.github.io/when2meet_redesign/">Link to Redesign</a>
+            
+    
+
+
+
+
+
+
+
+
+
+
+    </body>
+  </div>
+  </html>
