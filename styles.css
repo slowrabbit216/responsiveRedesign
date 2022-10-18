@@ -26,3 +26,8 @@ body {
   align-items: center;
   background-color: lightgreen;
 }
+
+h4 {
+  display: flex;
+  justify-content: center;
+}
